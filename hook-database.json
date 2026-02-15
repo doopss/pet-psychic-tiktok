@@ -1,0 +1,205 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-02-14",
+  "hooks": [
+    {
+      "id": 1,
+      "text": "My boyfriend didn't believe in pet psychics until I showed him this",
+      "formula": "Relationship Dynamic",
+      "rating": 9,
+      "uses": 3,
+      "tags": ["dog", "boyfriend", "disbelief"],
+      "notes": "Revised: More natural, less wordy"
+    },
+    {
+      "id": 2,
+      "text": "My mom laughed at me for using this app until she saw what our cat said about her",
+      "formula": "Relationship Dynamic",
+      "rating": 9,
+      "uses": 5,
+      "tags": ["cat", "mom", "laughter"]
+    },
+    {
+      "id": 3,
+      "text": "My roommate thought I was crazy talking to the dog, then he saw this",
+      "formula": "Relationship Dynamic",
+      "rating": 8,
+      "uses": 2,
+      "tags": ["dog", "roommate", "crazy"],
+      "notes": "Revised: 'Submitted him' was confusing, replaced with natural language"
+    },
+    {
+      "id": 4,
+      "text": "My cat's psychic reading exposed her secret double life",
+      "formula": "Secret Exposed",
+      "rating": 9,
+      "uses": 7,
+      "tags": ["cat", "secret", "double-life"]
+    },
+    {
+      "id": 5,
+      "text": "We asked what our dog does while we're at work — the answer shocked us",
+      "formula": "Secret Exposed",
+      "rating": 10,
+      "uses": 12,
+      "tags": ["dog", "work", "shocking"]
+    },
+    {
+      "id": 6,
+      "text": "My landlord didn't believe me when I said my rabbit was the one turning up the thermostat, then I showed her this",
+      "formula": "Relationship Dynamic",
+      "rating": 8,
+      "uses": 4,
+      "tags": ["rabbit", "landlord", "specific-behavior"],
+      "notes": "Revised: Landlord must relate to specific reading content"
+    },
+    {
+      "id": 7,
+      "text": "I asked what my rescue dog's past life was — the answer broke me",
+      "formula": "Emotional Reveal",
+      "rating": 9,
+      "uses": 8,
+      "tags": ["dog", "rescue", "past-life", "emotional"]
+    },
+    {
+      "id": 8,
+      "text": "My 14-year-old dog's reading made me cry in the vet parking lot",
+      "formula": "Emotional Reveal",
+      "rating": 10,
+      "uses": 15,
+      "tags": ["dog", "senior", "emotional", "cry"]
+    },
+    {
+      "id": 9,
+      "text": "We asked what our golden retriever thinks about all day",
+      "formula": "Relatable Humor",
+      "rating": 7,
+      "uses": 3,
+      "tags": ["dog", "golden-retriever", "thoughts"]
+    },
+    {
+      "id": 10,
+      "text": "My cat's reading about 3am zoomies was too accurate",
+      "formula": "Relatable Humor",
+      "rating": 8,
+      "uses": 6,
+      "tags": ["cat", "zoomies", "accurate"]
+    },
+    {
+      "id": 11,
+      "text": "My neighbor's dog judges me every morning — I finally know why",
+      "formula": "The Judgment",
+      "rating": 8,
+      "uses": 4,
+      "tags": ["dog", "neighbor", "judgment"]
+    },
+    {
+      "id": 12,
+      "text": "My rabbit's reading revealed his plans for world domination",
+      "formula": "Bunny-Specific",
+      "rating": 9,
+      "uses": 9,
+      "tags": ["rabbit", "bunny", "funny", "world-domination"]
+    },
+    {
+      "id": 13,
+      "text": "I asked what my bunny thinks about my tiny apartment",
+      "formula": "Bunny-Specific",
+      "rating": 7,
+      "uses": 2,
+      "tags": ["rabbit", "bunny", "apartment"]
+    },
+    {
+      "id": 14,
+      "text": "The reading exposed which houseplant my rabbit is plotting against",
+      "formula": "Bunny-Specific",
+      "rating": 8,
+      "uses": 5,
+      "tags": ["rabbit", "bunny", "houseplant", "plotting"]
+    },
+    {
+      "id": 15,
+      "text": "I didn't believe this until I saw what my dog revealed about my boyfriend",
+      "formula": "Skeptic Converted",
+      "rating": 9,
+      "uses": 6,
+      "tags": ["dog", "skeptic", "boyfriend"]
+    },
+    {
+      "id": 16,
+      "text": "I showed my dad what the dog said about him, and he FREAKED out",
+      "formula": "Relationship Dynamic",
+      "rating": 9,
+      "uses": 0,
+      "tags": ["dog", "dad", "shocking-reaction"],
+      "notes": "High stakes reaction - dad freaked out"
+    },
+    {
+      "id": 17,
+      "text": "My sister bet me $20 this pet psychic app was fake, then it revealed something only she and her cat would know",
+      "formula": "Relationship Dynamic",
+      "rating": 9,
+      "uses": 0,
+      "tags": ["cat", "sister", "bet", "specific-secret"],
+      "notes": "Establishes stakes + includes specific detail from reading"
+    },
+    {
+      "id": 18,
+      "text": "My husband didn't understand why I was crying, until I showed him what the dog said to me",
+      "formula": "Emotional Reveal",
+      "rating": 9,
+      "uses": 0,
+      "tags": ["dog", "husband", "crying", "emotional"],
+      "notes": "Better context - positions the app clearly"
+    },
+    {
+      "id": 19,
+      "text": "My girlfriend said this pet psychic app was stupid, now she's begging me to read her hamster's mind",
+      "formula": "Relationship Dynamic",
+      "rating": 8,
+      "uses": 0,
+      "tags": ["hamster", "girlfriend", "conversion"],
+      "notes": "Clear context: explains what app does"
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Relationship Dynamic",
+      "pattern": "[Person] + [didn't believe] → [showed them] → [reaction]",
+      "effectiveness": "High - creates tension and payoff"
+    },
+    {
+      "name": "Secret Exposed",
+      "pattern": "[Pet]'s reading + [exposed secret/double life]",
+      "effectiveness": "High - curiosity hook"
+    },
+    {
+      "name": "Emotional Reveal",
+      "pattern": "[Rescue/older pet] + [past life or deep feelings]",
+      "effectiveness": "Very High - emotional connection"
+    },
+    {
+      "name": "Relatable Humor",
+      "pattern": "[Universal pet behavior] + [pet's perspective]",
+      "effectiveness": "Medium - shareable, relatable"
+    },
+    {
+      "name": "The Judgment",
+      "pattern": "[Pet looks judgmental] + [reading confirms it]",
+      "effectiveness": "Medium - funny, specific"
+    },
+    {
+      "name": "Bunny-Specific",
+      "pattern": "[Bunny behavior] + [chaos/absurdity]",
+      "effectiveness": "High for bunny content - niche but engaged"
+    }
+  ],
+  "principles": {
+    "naturalLanguage": "Must sound like something you'd say in conversation",
+    "avoid": ["we submitted him", "awkward em dashes", "unclear context"],
+    "establishStakes": "Why should reader care? Use reactions like FREAKED out instead of 'believes me'",
+    "provideContext": "Explain what the app does - 'read her hamster's mind' not 'do her hamster'",
+    "specificDetails": "Include details only the person and pet would know",
+    "relationshipConnection": "Person in hook must relate to reading content"
+  }
+}
